@@ -1,4 +1,2 @@
-# fastdeploy：
 # pip install fastdeploy-python/fastdeploy-gpu-python -f https://www.paddlepaddle.org.cn/whl/fastdeploy.html
-# opencv-python：
 # pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
