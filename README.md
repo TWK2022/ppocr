@@ -1,5 +1,5 @@
 ## 快速使用OCR模型检测图片中的文字
->基于paddle官方项目整理：https://github.com/PaddlePaddle/FastDeploy/tree/develop/examples/vision/ocr/PP-OCR/cpu-gpu/python  
+>基于paddle官方项目整理：https://github.com/PaddlePaddle/FastDeploy/tree/develop/examples/vision/ocr/PP-OCR/cpu-gpu/python
 >### 项目介绍
 >>FastDeploy中PPOCRv3图片文字识别  
 >本项目将paddle官方相关代码进行了整理，方便快速简洁地使用   
