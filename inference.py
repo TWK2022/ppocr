@@ -14,7 +14,7 @@ parser.add_argument('--image_path', default='image/006.jpg', type=str)
 parser.add_argument('--device', default='cuda', type=str)
 parser.add_argument('--inference', default='trt', type=str)
 parser.add_argument('--float16', default=True, type=bool)
-args = parser.parse_args()
+args, _ = parser.parse_known_args()  # 防止传入参数冲突，替代args = parser.parse_args()
 args.n = int(input('请输入测试的轮次:'))
 
 
