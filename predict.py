@@ -57,7 +57,7 @@ class PPOCRv3_class:
                                                    rec_model=self.rec_model)
         print('| PPOCRv3_class初始化完毕 |')
 
-    def predict(self, image):  # image:BGR。结果可能为标点符号、空字符，或带有空格
+    def predict(self, image):  # image:RGB。结果可能为标点符号、空字符，或带有空格
         pred = self.model.predict(image)
         return pred
 
