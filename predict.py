@@ -64,6 +64,7 @@ class PPOCRv3_class:
 
 if __name__ == '__main__':
     image = cv2.imdecode(np.fromfile(args.image_path, dtype=np.uint8), cv2.IMREAD_COLOR)
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     model = PPOCRv3_class(args)
     pred = model.predict(image)
     result = pred.text
