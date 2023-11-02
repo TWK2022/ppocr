@@ -6,7 +6,7 @@
 >rec_label.txt中是识别的字符标签，实际应用中可根据情况替换空格等一些无用符号为空字符
 ### 1，image
 >image文件夹中存放待检测文字的图片
-### 2，inference.py
+### 2，predict.py
 >使用模型检测图片中的文字
 ### 3，flask_start.py
 >用flask将程序包装成一个服务，并在服务器上启动
