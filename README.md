@@ -19,3 +19,5 @@
 >以post请求传输数据调用服务
 ### 7，gunicorn_config.py
 >用gunicorn多进程启动flask服务：gunicorn -c gunicorn_config.py flask_start:app
+***
+![image](README_IMAGE/001.jpg)
